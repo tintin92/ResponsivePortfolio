@@ -11,6 +11,22 @@ html {
     min-height:100%;
 }
 
+/* add space for fixed navbar */
+main {
+    margin: 80px 0;
+}
+
+.block {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.block-header {
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+}
+
 .image-text {
     position: absolute;
     bottom: 20px;
