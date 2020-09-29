@@ -27,20 +27,33 @@ main {
     font-weight: bold;
 }
 
-.image-text {
-    position: absolute;
-    bottom: 20px;
-    left; 25px
-background-color: #4aaaa5;
+/* NAV START */
+#logo {
+  font-family: Georgia, Times, "Times New Roman", serif;
 
+  /* Typography */
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+
+  /* Visual */
+  background: #4aaaa5;
 }
 
+/* override bootstrap hover color and border */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #4aaaa5;
 }
 
-div {
-    background-color: lightgrey;
-    width: ;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+.navbar {
+  background: white;
+  border: none;
+}
+
+/* media query for nav background color change */
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    background-color: #4aaaa5;
   }
+}
+/* END NAV */
