@@ -1,4 +1,15 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
+    background-image: url("/Assets/Images/moroccan-flower-dark.png");
+}
+
+html {
+
+    position: relative;
+
+    min-height:100%;
+}
 
 .image-text {
     position: absolute;
