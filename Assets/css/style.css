@@ -39,7 +39,7 @@ main {
   color: #fff;
 
   /* Visual */
-  background: #4aaaa5;
+  background: #121313;
 }
 
 /* override bootstrap hover color and border */
@@ -64,7 +64,7 @@ main {
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: #4aaaa5;
+    background-color: #000000;
   }
 }
 /* END NAV */
@@ -100,10 +100,10 @@ main {
 
   /* Box-model */
   width: 100%;
-  height: 60px;
+  height: -20px;
 
   /* Visual */
-  background-color: #666;
+  background-color:black;
 }
 
 .text-muted-footer {
@@ -115,13 +115,13 @@ main {
 }
 
 .two-toned-footer-color {
-  /* Box-model */
+  background: 4px;
   height: 6px;
-  padding-top: 3px;
+}
 
   /* Visual */
-  background-color: #4aaaa5;
-}
+  /* /* background-color: ; */
+
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
 
@@ -184,4 +184,22 @@ main {
   opacity: .7;
 }
 
-/* END CONTACT FORM PAGE */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: -20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 4px;
+  border-radius: 23.3%
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  justify-content: center;
+
+}
