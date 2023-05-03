@@ -1,11 +1,5 @@
 # Responsive Portfolio
-
-Using Bootstrap 
-
-Bootstrap is mobile first. More about bootstrap LINK?
-
-(bootstrap)[]
-
+Custom portfolio experimenting with mobile responsiveness using containers, columns, and rows. 
 
 ## Directions
 
