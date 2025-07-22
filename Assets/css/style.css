@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family:  "Roboto", Arial, sans-serif;
 }
 
 html {
@@ -20,14 +20,14 @@ main {
 }
 
 .block-header {
-  color: #4aaaa5;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  color: #000000;
+  font-family: "Roboto", Arial, sans-serif;
   font-weight: bold;
 }
 
 /* NAV START */
 #logo {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family:  "Roboto", Arial, sans-serif;
 
   /* Typography */
   font-size: 24px;
@@ -124,7 +124,7 @@ main {
 /* ABOUT-ME PAGE */
 .about-me-header {
   /* Positioning */
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family:  "Roboto", Arial, sans-serif;
 
   /* Typography */
   font-size: 32px;
